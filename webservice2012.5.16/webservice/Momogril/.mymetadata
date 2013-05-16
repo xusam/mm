@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="Momogril"
+  id="myeclipse.1365140147713"
+  context-root="/Momogril"
+  j2ee-spec="5.0"
+  archive="Momogril.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

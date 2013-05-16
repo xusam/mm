@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="default" location="10,10" size="280,140">
+    <action name="Search" location="65,57" size="150,41">
+      <result name="success" />
+    </action>
+  </package>
+  <webResource name="index.jsp" path="index.jsp" location="100,205" size="150,55" />
+</Struts2Diagram>
+

@@ -1,0 +1,446 @@
+352  INFO  [2013-04-11 23:50:51]  HHH000046: Connection properties: {user=root, password=123321}
+367  DEBUG [2013-04-11 23:50:51]  Opening new JDBC connection
+515  DEBUG [2013-04-11 23:50:52]  Created connection to: jdbc:mysql://localhost:3306/miugril, Isolation Level: 4
+515  DEBUG [2013-04-11 23:50:52]  Database ->
+       name : MySQL
+    version : 5.5.20
+      major : 5
+      minor : 5
+515  DEBUG [2013-04-11 23:50:52]  Driver ->
+       name : MySQL-AB JDBC Driver
+    version : mysql-connector-java-5.0.8 ( Revision: ${svn.Revision} )
+      major : 5
+      minor : 0
+516  DEBUG [2013-04-11 23:50:52]  JDBC version : 3.0
+532  INFO  [2013-04-11 23:50:52]  HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+540  INFO  [2013-04-11 23:50:52]  HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+551  DEBUG [2013-04-11 23:50:52]  Automatic flush during beforeCompletion(): disabled
+551  DEBUG [2013-04-11 23:50:52]  Automatic session close at end of transaction: disabled
+551  DEBUG [2013-04-11 23:50:52]  JDBC batch size: 15
+551  DEBUG [2013-04-11 23:50:52]  JDBC batch updates for versioned data: disabled
+551  DEBUG [2013-04-11 23:50:52]  Scrollable result sets: enabled
+551  DEBUG [2013-04-11 23:50:52]  Wrap result sets: disabled
+552  DEBUG [2013-04-11 23:50:52]  JDBC3 getGeneratedKeys(): enabled
+552  DEBUG [2013-04-11 23:50:52]  multi-tenancy strategy : NONE
+552  DEBUG [2013-04-11 23:50:52]  Connection release mode: auto
+552  INFO  [2013-04-11 23:50:52]  HHH000399: Using default transaction strategy (direct JDBC transactions)
+554  DEBUG [2013-04-11 23:50:52]  Maximum outer join fetch depth: 2
+555  DEBUG [2013-04-11 23:50:52]  Default batch fetch size: 1
+555  DEBUG [2013-04-11 23:50:52]  Generate SQL with comments: disabled
+555  DEBUG [2013-04-11 23:50:52]  Order SQL updates by primary key: disabled
+555  DEBUG [2013-04-11 23:50:52]  Order SQL inserts for batching: disabled
+555  DEBUG [2013-04-11 23:50:52]  Query translator: org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory
+556  INFO  [2013-04-11 23:50:52]  HHH000397: Using ASTQueryTranslatorFactory
+557  DEBUG [2013-04-11 23:50:52]  Query language substitutions: {}
+557  DEBUG [2013-04-11 23:50:52]  JPA-QL strict compliance: disabled
+557  DEBUG [2013-04-11 23:50:52]  Second-level cache: enabled
+557  DEBUG [2013-04-11 23:50:52]  Query cache: disabled
+557  DEBUG [2013-04-11 23:50:52]  Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+558  DEBUG [2013-04-11 23:50:52]  org.hibernate.cache.internal.NoCachingRegionFactory did not provide constructor accepting java.util.Properties; attempting no-arg constructor.
+558  DEBUG [2013-04-11 23:50:52]  Optimize cache for minimal puts: disabled
+558  DEBUG [2013-04-11 23:50:52]  Structured second-level cache entries: disabled
+558  DEBUG [2013-04-11 23:50:52]  Statistics: disabled
+558  DEBUG [2013-04-11 23:50:52]  Deleted entity synthetic identifier rollback: disabled
+558  DEBUG [2013-04-11 23:50:52]  Default entity-mode: pojo
+558  DEBUG [2013-04-11 23:50:52]  Named query checking : enabled
+558  DEBUG [2013-04-11 23:50:52]  Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+558  DEBUG [2013-04-11 23:50:52]  Allow initialization of lazy state outside session : : disabled
+567  DEBUG [2013-04-11 23:50:52]  Building session factory
+576  DEBUG [2013-04-11 23:50:52]  Session factory constructed with filter configurations : {}
+576  DEBUG [2013-04-11 23:50:52]  Instantiating session factory with properties: {java.runtime.name=Java(TM) SE Runtime Environment, hibernate.connection.password=123321, hibernate.cache.provider_class=org.hibernate.cache.internal.NoCacheProvider, sun.boot.library.path=F:\Genuitec\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\bin, java.vm.version=11.3-b02, hibernate.connection.username=root, java.vm.vendor=Sun Microsystems Inc., java.vendor.url=http://java.sun.com/, path.separator=;, java.vm.name=Java HotSpot(TM) Client VM, file.encoding.pkg=sun.io, user.country=CN, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=Service Pack 1, java.vm.specification.name=Java Virtual Machine Specification, user.dir=I:\momogril\webservice\Momogril, java.runtime.version=1.6.0_13-b03, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.endorsed.dirs=F:\Genuitec\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\lib\endorsed, os.arch=x86, java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\, line.separator=
+, java.vm.specification.vendor=Sun Microsystems Inc., user.variant=, cache.provider_class=org.hibernate.cache.internal.NoCacheProvider, os.name=Windows Vista, sun.jnu.encoding=GBK, java.library.path=F:\Genuitec\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;F:/Genuitec/Common/binary/com.sun.java.jdk.win32.x86_1.6.0.013/jre/bin/client;F:/Genuitec/Common/binary/com.sun.java.jdk.win32.x86_1.6.0.013/jre/bin;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows7Master;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\Java\jdk1.6.0_31\bin;C:\Program Files\Java\jdk1.6.0_31\jre\bin;C:\Program Files (x86)\Android\android-sdk\tools;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Microsoft\Web Platform Installer\;H:\Git\cmd;C:\Tomcat7\lib;C:\Tomcat7\lib\servlet-api.jar;C:\Tomcat7\lib\jsp-api.jar, java.specification.name=Java Platform API Specification, java.class.version=50.0, sun.management.compiler=HotSpot Client Compiler, os.version=6.1, user.home=C:\Users\Administrator, connection.password=123321, user.timezone=Asia/Shanghai, java.awt.printerjob=sun.awt.windows.WPrinterJob, connection.username=root, java.specification.version=1.6, file.encoding=UTF-8, hibernate.connection.driver_class=com.mysql.jdbc.Driver, show_sql=true, java.class.path=I:\momogril\webservice\Momogril\WebRoot\WEB-INF\classes;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\antlr-2.7.7.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\asm-3.3.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\asm-commons-3.3.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\asm-tree-3.3.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\commons-codec.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\commons-fileupload-1.2.2.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\commons-httpclient-3.1.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\commons-io-2.0.1.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\commons-lang3-3.1.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\commons-logging-1.1.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\dom4j-1.6.1.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\freemarker-2.3.19.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\hibernate-commons-annotations-4.0.1.Final.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\hibernate-core-4.1.10.Final.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\hibernate-jpa-2.0-api-1.0.1.Final.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\jackson-all-1.8.5.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\javassist-3.11.0.GA.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\javassist-3.15.0-GA.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\jboss-logging-3.1.0.GA.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\jboss-transaction-api_1.1_spec-1.0.0.Final.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\log4j-1.2.16.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\ognl-3.0.6.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\struts2-core-2.3.8.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\struts2-json-plugin-2.3.8.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\xwork-core-2.3.8.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\fastjson-1.1.26.jar;F:\Genuitec\Common\plugins\org.junit4_4.5.0.v20090824\junit.jar;F:\Genuitec\Common\plugins\org.hamcrest.core_1.1.0.v20090501071000.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\mysql-connector-java-5.0.8-bin.jar;/F:/Genuitec/MyEclipse for Spring 8.6/configuration/org.eclipse.osgi/bundles/715/1/.cp/;/F:/Genuitec/MyEclipse for Spring 8.6/configuration/org.eclipse.osgi/bundles/713/1/.cp/;/F:/Genuitec/MyEclipse for Spring 8.6/configuration/org.eclipse.osgi/bundles/714/1/.cp/, user.name=Administrator, hibernate.bytecode.use_reflection_optimizer=false, hibernate.show_sql=true, java.vm.specification.version=1.0, sun.arch.data.model=32, java.home=F:\Genuitec\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre, hibernate.connection.url=jdbc:mysql://localhost:3306/miugril, hibernate.dialect=org.hibernate.dialect.MySQL5Dialect, java.specification.vendor=Sun Microsystems Inc., user.language=zh, awt.toolkit=sun.awt.windows.WToolkit, java.vm.info=mixed mode, java.version=1.6.0_13, java.ext.dirs=F:\Genuitec\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\lib\ext;C:\Windows\Sun\Java\lib\ext, sun.boot.class.path=F:\Genuitec\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\lib\resources.jar;F:\Genuitec\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\lib\rt.jar;F:\Genuitec\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\lib\sunrsasign.jar;F:\Genuitec\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\lib\jsse.jar;F:\Genuitec\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\lib\jce.jar;F:\Genuitec\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\lib\charsets.jar;F:\Genuitec\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\classes;F:\Genuitec\Common\plugins\com.genuitec.eclipse.j2eedt.core_8.6.0.me201007292038\data\libraryset\EE_5\javaee.jar;F:\Genuitec\Common\plugins\com.genuitec.eclipse.j2eedt.core_8.6.0.me201007292038\data\libraryset\EE_5\jsf-impl.jar;F:\Genuitec\Common\plugins\com.genuitec.eclipse.j2eedt.core_8.6.0.me201007292038\data\libraryset\EE_5\jsf-api.jar;F:\Genuitec\Common\plugins\com.genuitec.eclipse.j2eedt.core_8.6.0.me201007292038\data\libraryset\EE_5\jstl-1.2.jar, java.vendor=Sun Microsystems Inc., file.separator=\, connection.driver_class=com.mysql.jdbc.Driver, java.vendor.url.bug=http://java.sun.com/cgi-bin/bugreport.cgi, sun.cpu.endian=little, sun.io.unicode.encoding=UnicodeLittle, sun.desktop=windows, connection.url=jdbc:mysql://localhost:3306/miugril, sun.cpu.isalist=pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86, dialect=org.hibernate.dialect.MySQL5Dialect}
+587  DEBUG [2013-04-11 23:50:52]  Setting dialect [org.hibernate.dialect.MySQL5Dialect]
+685  DEBUG [2013-04-11 23:50:52]  Static SQL for entity: momogril.model.User
+685  DEBUG [2013-04-11 23:50:52]   Version select: select id from User where id =?
+686  DEBUG [2013-04-11 23:50:52]   Snapshot select: select user_.id, user_.avatar_large as avatar2_0_, user_.createtime as createtime0_, user_.mid as mid0_, user_.profile_image_url as profile5_0_, user_.screen_name as screen6_0_ from User user_ where user_.id=?
+686  DEBUG [2013-04-11 23:50:52]   Insert 0: insert into User (avatar_large, createtime, mid, profile_image_url, screen_name, id) values (?, ?, ?, ?, ?, ?)
+686  DEBUG [2013-04-11 23:50:52]   Update 0: update User set avatar_large=?, createtime=?, mid=?, profile_image_url=?, screen_name=? where id=?
+687  DEBUG [2013-04-11 23:50:52]   Delete 0: delete from User where id=?
+687  DEBUG [2013-04-11 23:50:52]   Identity insert: insert into User (avatar_large, createtime, mid, profile_image_url, screen_name) values (?, ?, ?, ?, ?)
+707  DEBUG [2013-04-11 23:50:52]  Static select for entity momogril.model.User [NONE]: select user0_.id as id0_0_, user0_.avatar_large as avatar2_0_0_, user0_.createtime as createtime0_0_, user0_.mid as mid0_0_, user0_.profile_image_url as profile5_0_0_, user0_.screen_name as screen6_0_0_ from User user0_ where user0_.id=?
+707  DEBUG [2013-04-11 23:50:52]  Static select for entity momogril.model.User [READ]: select user0_.id as id0_0_, user0_.avatar_large as avatar2_0_0_, user0_.createtime as createtime0_0_, user0_.mid as mid0_0_, user0_.profile_image_url as profile5_0_0_, user0_.screen_name as screen6_0_0_ from User user0_ where user0_.id=?
+707  DEBUG [2013-04-11 23:50:52]  Static select for entity momogril.model.User [UPGRADE]: select user0_.id as id0_0_, user0_.avatar_large as avatar2_0_0_, user0_.createtime as createtime0_0_, user0_.mid as mid0_0_, user0_.profile_image_url as profile5_0_0_, user0_.screen_name as screen6_0_0_ from User user0_ where user0_.id=? for update
+708  DEBUG [2013-04-11 23:50:52]  Static select for entity momogril.model.User [UPGRADE_NOWAIT]: select user0_.id as id0_0_, user0_.avatar_large as avatar2_0_0_, user0_.createtime as createtime0_0_, user0_.mid as mid0_0_, user0_.profile_image_url as profile5_0_0_, user0_.screen_name as screen6_0_0_ from User user0_ where user0_.id=? for update
+708  DEBUG [2013-04-11 23:50:52]  Static select for entity momogril.model.User [FORCE]: select user0_.id as id0_0_, user0_.avatar_large as avatar2_0_0_, user0_.createtime as createtime0_0_, user0_.mid as mid0_0_, user0_.profile_image_url as profile5_0_0_, user0_.screen_name as screen6_0_0_ from User user0_ where user0_.id=? for update
+708  DEBUG [2013-04-11 23:50:52]  Static select for entity momogril.model.User [PESSIMISTIC_READ]: select user0_.id as id0_0_, user0_.avatar_large as avatar2_0_0_, user0_.createtime as createtime0_0_, user0_.mid as mid0_0_, user0_.profile_image_url as profile5_0_0_, user0_.screen_name as screen6_0_0_ from User user0_ where user0_.id=? lock in share mode
+708  DEBUG [2013-04-11 23:50:52]  Static select for entity momogril.model.User [PESSIMISTIC_WRITE]: select user0_.id as id0_0_, user0_.avatar_large as avatar2_0_0_, user0_.createtime as createtime0_0_, user0_.mid as mid0_0_, user0_.profile_image_url as profile5_0_0_, user0_.screen_name as screen6_0_0_ from User user0_ where user0_.id=? for update
+708  DEBUG [2013-04-11 23:50:52]  Static select for entity momogril.model.User [PESSIMISTIC_FORCE_INCREMENT]: select user0_.id as id0_0_, user0_.avatar_large as avatar2_0_0_, user0_.createtime as createtime0_0_, user0_.mid as mid0_0_, user0_.profile_image_url as profile5_0_0_, user0_.screen_name as screen6_0_0_ from User user0_ where user0_.id=? for update
+709  DEBUG [2013-04-11 23:50:52]  Static select for entity momogril.model.User [OPTIMISTIC]: select user0_.id as id0_0_, user0_.avatar_large as avatar2_0_0_, user0_.createtime as createtime0_0_, user0_.mid as mid0_0_, user0_.profile_image_url as profile5_0_0_, user0_.screen_name as screen6_0_0_ from User user0_ where user0_.id=?
+709  DEBUG [2013-04-11 23:50:52]  Static select for entity momogril.model.User [OPTIMISTIC_FORCE_INCREMENT]: select user0_.id as id0_0_, user0_.avatar_large as avatar2_0_0_, user0_.createtime as createtime0_0_, user0_.mid as mid0_0_, user0_.profile_image_url as profile5_0_0_, user0_.screen_name as screen6_0_0_ from User user0_ where user0_.id=?
+714  DEBUG [2013-04-11 23:50:52]  Static select for action ACTION_MERGE on entity momogril.model.User: select user0_.id as id0_0_, user0_.avatar_large as avatar2_0_0_, user0_.createtime as createtime0_0_, user0_.mid as mid0_0_, user0_.profile_image_url as profile5_0_0_, user0_.screen_name as screen6_0_0_ from User user0_ where user0_.id=?
+715  DEBUG [2013-04-11 23:50:52]  Static select for action ACTION_REFRESH on entity momogril.model.User: select user0_.id as id0_0_, user0_.avatar_large as avatar2_0_0_, user0_.createtime as createtime0_0_, user0_.mid as mid0_0_, user0_.profile_image_url as profile5_0_0_, user0_.screen_name as screen6_0_0_ from User user0_ where user0_.id=?
+735  DEBUG [2013-04-11 23:50:52]  Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@18bbf55
+737  DEBUG [2013-04-11 23:50:52]  Registering SessionFactory: c77dabc3-6409-4a8e-8b75-7a7fe5ad8ea0 (<unnamed>)
+737  DEBUG [2013-04-11 23:50:52]  Not binding SessionFactory to JNDI, no JNDI name configured
+737  DEBUG [2013-04-11 23:50:52]  Instantiated session factory
+738  DEBUG [2013-04-11 23:50:52]  Checking 0 named HQL queries
+738  DEBUG [2013-04-11 23:50:52]  Checking 0 named SQL queries
+746  DEBUG [2013-04-11 23:50:52]  Statistics initialized [enabled=false]
+784  DEBUG [2013-04-11 23:50:52]  begin
+784  DEBUG [2013-04-11 23:50:52]  Obtaining JDBC connection
+784  DEBUG [2013-04-11 23:50:52]  Obtained JDBC connection
+784  DEBUG [2013-04-11 23:50:52]  initial autocommit status: false
+827  DEBUG [2013-04-11 23:50:52]  Executing identity-insert immediately
+853  DEBUG [2013-04-11 23:50:52]  insert into User (avatar_large, createtime, mid, profile_image_url, screen_name) values (?, ?, ?, ?, ?)
+868  DEBUG [2013-04-11 23:50:52]  Table 'miugril.user' doesn't exist [n/a]
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Table 'miugril.user' doesn't exist
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2985)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1631)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1723)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3283)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1332)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1604)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1519)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1504)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.hibernate.engine.jdbc.internal.proxy.AbstractStatementProxyHandler.continueInvocation(AbstractStatementProxyHandler.java:122)
+	at org.hibernate.engine.jdbc.internal.proxy.AbstractProxyHandler.invoke(AbstractProxyHandler.java:81)
+	at $Proxy9.executeUpdate(Unknown Source)
+	at org.hibernate.id.IdentityGenerator$GetGeneratedKeysDelegate.executeAndExtract(IdentityGenerator.java:96)
+	at org.hibernate.id.insert.AbstractReturningDelegate.performInsert(AbstractReturningDelegate.java:58)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:2936)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3447)
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:81)
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:362)
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:203)
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:183)
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:167)
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:321)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:286)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:192)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:125)
+	at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.saveWithGeneratedOrRequestedId(DefaultSaveOrUpdateEventListener.java:204)
+	at org.hibernate.event.internal.DefaultSaveEventListener.saveWithGeneratedOrRequestedId(DefaultSaveEventListener.java:55)
+	at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.entityIsTransient(DefaultSaveOrUpdateEventListener.java:189)
+	at org.hibernate.event.internal.DefaultSaveEventListener.performSaveOrUpdate(DefaultSaveEventListener.java:49)
+	at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.onSaveOrUpdate(DefaultSaveOrUpdateEventListener.java:90)
+	at org.hibernate.internal.SessionImpl.fireSave(SessionImpl.java:756)
+	at org.hibernate.internal.SessionImpl.save(SessionImpl.java:748)
+	at org.hibernate.internal.SessionImpl.save(SessionImpl.java:744)
+	at momogril.test.HibernateTest.testHibernate(HibernateTest.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:31)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:73)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:46)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:180)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:41)
+	at org.junit.runners.ParentRunner$1.evaluate(ParentRunner.java:173)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:31)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:220)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:46)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+870  WARN  [2013-04-11 23:50:52]  SQL Error: 1146, SQLState: 42S02
+870  ERROR [2013-04-11 23:50:52]  Table 'miugril.user' doesn't exist
+0    DEBUG [2013-04-11 23:52:04]  Logging Provider: org.jboss.logging.Log4jLoggerProvider
+16   DEBUG [2013-04-11 23:52:04]  Adding type registration boolean -> org.hibernate.type.BooleanType@1de17f4
+17   DEBUG [2013-04-11 23:52:04]  Adding type registration boolean -> org.hibernate.type.BooleanType@1de17f4
+17   DEBUG [2013-04-11 23:52:04]  Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@1de17f4
+18   DEBUG [2013-04-11 23:52:04]  Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@96cf11
+19   DEBUG [2013-04-11 23:52:04]  Adding type registration true_false -> org.hibernate.type.TrueFalseType@1eb2c1b
+19   DEBUG [2013-04-11 23:52:04]  Adding type registration yes_no -> org.hibernate.type.YesNoType@4f9fdc
+22   DEBUG [2013-04-11 23:52:04]  Adding type registration byte -> org.hibernate.type.ByteType@ca470
+22   DEBUG [2013-04-11 23:52:04]  Adding type registration byte -> org.hibernate.type.ByteType@ca470
+23   DEBUG [2013-04-11 23:52:04]  Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@ca470
+23   DEBUG [2013-04-11 23:52:04]  Adding type registration character -> org.hibernate.type.CharacterType@961dff
+24   DEBUG [2013-04-11 23:52:04]  Adding type registration char -> org.hibernate.type.CharacterType@961dff
+24   DEBUG [2013-04-11 23:52:04]  Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@961dff
+25   DEBUG [2013-04-11 23:52:04]  Adding type registration short -> org.hibernate.type.ShortType@1f297e7
+25   DEBUG [2013-04-11 23:52:04]  Adding type registration short -> org.hibernate.type.ShortType@1f297e7
+26   DEBUG [2013-04-11 23:52:04]  Adding type registration java.lang.Short -> org.hibernate.type.ShortType@1f297e7
+26   DEBUG [2013-04-11 23:52:04]  Adding type registration integer -> org.hibernate.type.IntegerType@175078b
+27   DEBUG [2013-04-11 23:52:04]  Adding type registration int -> org.hibernate.type.IntegerType@175078b
+27   DEBUG [2013-04-11 23:52:04]  Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@175078b
+28   DEBUG [2013-04-11 23:52:04]  Adding type registration long -> org.hibernate.type.LongType@19e15c
+28   DEBUG [2013-04-11 23:52:04]  Adding type registration long -> org.hibernate.type.LongType@19e15c
+28   DEBUG [2013-04-11 23:52:04]  Adding type registration java.lang.Long -> org.hibernate.type.LongType@19e15c
+29   DEBUG [2013-04-11 23:52:04]  Adding type registration float -> org.hibernate.type.FloatType@1581593
+30   DEBUG [2013-04-11 23:52:04]  Adding type registration float -> org.hibernate.type.FloatType@1581593
+30   DEBUG [2013-04-11 23:52:04]  Adding type registration java.lang.Float -> org.hibernate.type.FloatType@1581593
+31   DEBUG [2013-04-11 23:52:04]  Adding type registration double -> org.hibernate.type.DoubleType@176cad3
+31   DEBUG [2013-04-11 23:52:04]  Adding type registration double -> org.hibernate.type.DoubleType@176cad3
+31   DEBUG [2013-04-11 23:52:04]  Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@176cad3
+34   DEBUG [2013-04-11 23:52:04]  Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@79ed7f
+34   DEBUG [2013-04-11 23:52:04]  Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@79ed7f
+35   DEBUG [2013-04-11 23:52:04]  Adding type registration big_integer -> org.hibernate.type.BigIntegerType@3c0007
+35   DEBUG [2013-04-11 23:52:04]  Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@3c0007
+36   DEBUG [2013-04-11 23:52:04]  Adding type registration string -> org.hibernate.type.StringType@19e8f17
+36   DEBUG [2013-04-11 23:52:04]  Adding type registration java.lang.String -> org.hibernate.type.StringType@19e8f17
+37   DEBUG [2013-04-11 23:52:04]  Adding type registration nstring -> org.hibernate.type.StringNVarcharType@102799c
+38   DEBUG [2013-04-11 23:52:04]  Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@7109c4
+39   DEBUG [2013-04-11 23:52:04]  Adding type registration url -> org.hibernate.type.UrlType@161dfb5
+40   DEBUG [2013-04-11 23:52:04]  Adding type registration java.net.URL -> org.hibernate.type.UrlType@161dfb5
+41   DEBUG [2013-04-11 23:52:04]  Adding type registration date -> org.hibernate.type.DateType@198cb3d
+41   DEBUG [2013-04-11 23:52:04]  Adding type registration java.sql.Date -> org.hibernate.type.DateType@198cb3d
+43   DEBUG [2013-04-11 23:52:04]  Adding type registration time -> org.hibernate.type.TimeType@1acd47
+43   DEBUG [2013-04-11 23:52:04]  Adding type registration java.sql.Time -> org.hibernate.type.TimeType@1acd47
+45   DEBUG [2013-04-11 23:52:04]  Adding type registration timestamp -> org.hibernate.type.TimestampType@4ecfdd
+45   DEBUG [2013-04-11 23:52:04]  Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@4ecfdd
+45   DEBUG [2013-04-11 23:52:04]  Adding type registration java.util.Date -> org.hibernate.type.TimestampType@4ecfdd
+46   DEBUG [2013-04-11 23:52:04]  Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@c09554
+47   DEBUG [2013-04-11 23:52:04]  Adding type registration calendar -> org.hibernate.type.CalendarType@13d28e3
+47   DEBUG [2013-04-11 23:52:04]  Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@13d28e3
+47   DEBUG [2013-04-11 23:52:04]  Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@13d28e3
+48   DEBUG [2013-04-11 23:52:04]  Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@3b8b49
+49   DEBUG [2013-04-11 23:52:04]  Adding type registration locale -> org.hibernate.type.LocaleType@18235ed
+49   DEBUG [2013-04-11 23:52:04]  Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@18235ed
+50   DEBUG [2013-04-11 23:52:04]  Adding type registration currency -> org.hibernate.type.CurrencyType@19b1de
+50   DEBUG [2013-04-11 23:52:04]  Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@19b1de
+51   DEBUG [2013-04-11 23:52:04]  Adding type registration timezone -> org.hibernate.type.TimeZoneType@9cb0f4
+51   DEBUG [2013-04-11 23:52:04]  Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@9cb0f4
+51   DEBUG [2013-04-11 23:52:04]  Adding type registration class -> org.hibernate.type.ClassType@f42ad0
+52   DEBUG [2013-04-11 23:52:04]  Adding type registration java.lang.Class -> org.hibernate.type.ClassType@f42ad0
+53   DEBUG [2013-04-11 23:52:04]  Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@ff2413
+53   DEBUG [2013-04-11 23:52:04]  Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@ff2413
+54   DEBUG [2013-04-11 23:52:04]  Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@1d95492
+54   DEBUG [2013-04-11 23:52:04]  Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@e0cc23
+55   DEBUG [2013-04-11 23:52:04]  Adding type registration binary -> org.hibernate.type.BinaryType@1f78040
+55   DEBUG [2013-04-11 23:52:04]  Adding type registration byte[] -> org.hibernate.type.BinaryType@1f78040
+55   DEBUG [2013-04-11 23:52:04]  Adding type registration [B -> org.hibernate.type.BinaryType@1f78040
+57   DEBUG [2013-04-11 23:52:04]  Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@2200d5
+57   DEBUG [2013-04-11 23:52:04]  Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@2200d5
+57   DEBUG [2013-04-11 23:52:04]  Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@2200d5
+58   DEBUG [2013-04-11 23:52:04]  Adding type registration image -> org.hibernate.type.ImageType@5e13ad
+59   DEBUG [2013-04-11 23:52:04]  Adding type registration characters -> org.hibernate.type.CharArrayType@11ca803
+59   DEBUG [2013-04-11 23:52:04]  Adding type registration char[] -> org.hibernate.type.CharArrayType@11ca803
+59   DEBUG [2013-04-11 23:52:04]  Adding type registration [C -> org.hibernate.type.CharArrayType@11ca803
+60   DEBUG [2013-04-11 23:52:04]  Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@453807
+60   DEBUG [2013-04-11 23:52:04]  Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@453807
+60   DEBUG [2013-04-11 23:52:04]  Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@453807
+61   DEBUG [2013-04-11 23:52:04]  Adding type registration text -> org.hibernate.type.TextType@273686
+62   DEBUG [2013-04-11 23:52:04]  Adding type registration ntext -> org.hibernate.type.NTextType@e64686
+67   DEBUG [2013-04-11 23:52:04]  Adding type registration blob -> org.hibernate.type.BlobType@17494c8
+67   DEBUG [2013-04-11 23:52:04]  Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@17494c8
+68   DEBUG [2013-04-11 23:52:04]  Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@1e57e8f
+72   DEBUG [2013-04-11 23:52:04]  Adding type registration clob -> org.hibernate.type.ClobType@1774b9b
+72   DEBUG [2013-04-11 23:52:04]  Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@1774b9b
+75   DEBUG [2013-04-11 23:52:04]  Adding type registration nclob -> org.hibernate.type.NClobType@100363
+75   DEBUG [2013-04-11 23:52:04]  Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@100363
+75   DEBUG [2013-04-11 23:52:04]  Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@97d01f
+76   DEBUG [2013-04-11 23:52:04]  Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@feb48
+77   DEBUG [2013-04-11 23:52:04]  Adding type registration serializable -> org.hibernate.type.SerializableType@11dba45
+80   DEBUG [2013-04-11 23:52:04]  Adding type registration object -> org.hibernate.type.ObjectType@16925b0
+80   DEBUG [2013-04-11 23:52:04]  Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@16925b0
+80   DEBUG [2013-04-11 23:52:04]  Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@914f6a
+80   DEBUG [2013-04-11 23:52:04]  Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@1f4cbee
+80   DEBUG [2013-04-11 23:52:04]  Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@787d6a
+81   DEBUG [2013-04-11 23:52:04]  Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@71dc3d
+81   DEBUG [2013-04-11 23:52:04]  Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@1326484
+81   DEBUG [2013-04-11 23:52:04]  Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@16546ef
+81   DEBUG [2013-04-11 23:52:04]  Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@1428ea
+81   DEBUG [2013-04-11 23:52:04]  Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@18a49e0
+99   INFO  [2013-04-11 23:52:04]  HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+104  INFO  [2013-04-11 23:52:04]  HHH000412: Hibernate Core {4.1.10.Final}
+106  INFO  [2013-04-11 23:52:04]  HHH000206: hibernate.properties not found
+107  INFO  [2013-04-11 23:52:04]  HHH000021: Bytecode provider name : javassist
+121  DEBUG [2013-04-11 23:52:04]  Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+121  DEBUG [2013-04-11 23:52:04]  Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+122  DEBUG [2013-04-11 23:52:04]  Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+122  DEBUG [2013-04-11 23:52:04]  Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+123  DEBUG [2013-04-11 23:52:04]  Registering IdentifierGenerator strategy [hilo] -> [org.hibernate.id.TableHiLoGenerator]
+123  DEBUG [2013-04-11 23:52:04]  Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+124  DEBUG [2013-04-11 23:52:04]  Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+124  DEBUG [2013-04-11 23:52:04]  Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+125  DEBUG [2013-04-11 23:52:04]  Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.SequenceGenerator]
+125  DEBUG [2013-04-11 23:52:04]  Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+126  DEBUG [2013-04-11 23:52:04]  Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+126  DEBUG [2013-04-11 23:52:04]  Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+126  DEBUG [2013-04-11 23:52:04]  Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+127  DEBUG [2013-04-11 23:52:04]  Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+128  DEBUG [2013-04-11 23:52:04]  Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+130  INFO  [2013-04-11 23:52:04]  HHH000043: Configuring from resource: /hibernate.cfg.xml
+130  INFO  [2013-04-11 23:52:04]  HHH000040: Configuration resource: /hibernate.cfg.xml
+169  DEBUG [2013-04-11 23:52:04]  Trying to resolve system-id [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd]
+169  DEBUG [2013-04-11 23:52:04]  Recognized hibernate namespace; attempting to resolve on classpath under org/hibernate/
+170  DEBUG [2013-04-11 23:52:04]  Located [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd] in classpath
+198  DEBUG [2013-04-11 23:52:04]  connection.driver_class=com.mysql.jdbc.Driver
+199  DEBUG [2013-04-11 23:52:04]  connection.url=jdbc:mysql://localhost:3306/miugril
+199  DEBUG [2013-04-11 23:52:04]  connection.username=root
+199  DEBUG [2013-04-11 23:52:04]  connection.password=123321
+199  DEBUG [2013-04-11 23:52:04]  dialect=org.hibernate.dialect.MySQL5Dialect
+199  DEBUG [2013-04-11 23:52:04]  cache.provider_class=org.hibernate.cache.internal.NoCacheProvider
+199  DEBUG [2013-04-11 23:52:04]  show_sql=true
+200  DEBUG [2013-04-11 23:52:04]  hbm2ddl.auto=update
+200  DEBUG [2013-04-11 23:52:04]  Session-factory config [null] named class [momogril.model.User] for mapping
+208  INFO  [2013-04-11 23:52:04]  HHH000041: Configured SessionFactory: null
+209  DEBUG [2013-04-11 23:52:04]  Properties: {hibernate.connection.password=123321, java.runtime.name=Java(TM) SE Runtime Environment, hibernate.cache.provider_class=org.hibernate.cache.internal.NoCacheProvider, sun.boot.library.path=F:\Genuitec\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\bin, java.vm.version=11.3-b02, hibernate.connection.username=root, java.vm.vendor=Sun Microsystems Inc., java.vendor.url=http://java.sun.com/, path.separator=;, java.vm.name=Java HotSpot(TM) Client VM, file.encoding.pkg=sun.io, user.country=CN, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=Service Pack 1, java.vm.specification.name=Java Virtual Machine Specification, user.dir=I:\momogril\webservice\Momogril, java.runtime.version=1.6.0_13-b03, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, hbm2ddl.auto=update, java.endorsed.dirs=F:\Genuitec\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\lib\endorsed, os.arch=x86, java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\, line.separator=
+, java.vm.specification.vendor=Sun Microsystems Inc., cache.provider_class=org.hibernate.cache.internal.NoCacheProvider, user.variant=, os.name=Windows Vista, sun.jnu.encoding=GBK, java.library.path=F:\Genuitec\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;F:/Genuitec/Common/binary/com.sun.java.jdk.win32.x86_1.6.0.013/jre/bin/client;F:/Genuitec/Common/binary/com.sun.java.jdk.win32.x86_1.6.0.013/jre/bin;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows7Master;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\Java\jdk1.6.0_31\bin;C:\Program Files\Java\jdk1.6.0_31\jre\bin;C:\Program Files (x86)\Android\android-sdk\tools;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Microsoft\Web Platform Installer\;H:\Git\cmd;C:\Tomcat7\lib;C:\Tomcat7\lib\servlet-api.jar;C:\Tomcat7\lib\jsp-api.jar, java.specification.name=Java Platform API Specification, java.class.version=50.0, sun.management.compiler=HotSpot Client Compiler, os.version=6.1, connection.password=123321, user.home=C:\Users\Administrator, user.timezone=Asia/Shanghai, connection.username=root, java.awt.printerjob=sun.awt.windows.WPrinterJob, file.encoding=UTF-8, java.specification.version=1.6, hibernate.connection.driver_class=com.mysql.jdbc.Driver, show_sql=true, user.name=Administrator, java.class.path=I:\momogril\webservice\Momogril\WebRoot\WEB-INF\classes;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\antlr-2.7.7.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\asm-3.3.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\asm-commons-3.3.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\asm-tree-3.3.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\commons-codec.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\commons-fileupload-1.2.2.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\commons-httpclient-3.1.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\commons-io-2.0.1.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\commons-lang3-3.1.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\commons-logging-1.1.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\dom4j-1.6.1.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\freemarker-2.3.19.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\hibernate-commons-annotations-4.0.1.Final.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\hibernate-core-4.1.10.Final.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\hibernate-jpa-2.0-api-1.0.1.Final.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\jackson-all-1.8.5.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\javassist-3.11.0.GA.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\javassist-3.15.0-GA.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\jboss-logging-3.1.0.GA.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\jboss-transaction-api_1.1_spec-1.0.0.Final.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\log4j-1.2.16.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\ognl-3.0.6.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\struts2-core-2.3.8.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\struts2-json-plugin-2.3.8.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\xwork-core-2.3.8.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\fastjson-1.1.26.jar;F:\Genuitec\Common\plugins\org.junit4_4.5.0.v20090824\junit.jar;F:\Genuitec\Common\plugins\org.hamcrest.core_1.1.0.v20090501071000.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\mysql-connector-java-5.0.8-bin.jar;/F:/Genuitec/MyEclipse for Spring 8.6/configuration/org.eclipse.osgi/bundles/715/1/.cp/;/F:/Genuitec/MyEclipse for Spring 8.6/configuration/org.eclipse.osgi/bundles/713/1/.cp/;/F:/Genuitec/MyEclipse for Spring 8.6/configuration/org.eclipse.osgi/bundles/714/1/.cp/, hibernate.bytecode.use_reflection_optimizer=false, hibernate.show_sql=true, java.vm.specification.version=1.0, java.home=F:\Genuitec\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre, sun.arch.data.model=32, hibernate.dialect=org.hibernate.dialect.MySQL5Dialect, hibernate.connection.url=jdbc:mysql://localhost:3306/miugril, user.language=zh, java.specification.vendor=Sun Microsystems Inc., awt.toolkit=sun.awt.windows.WToolkit, java.vm.info=mixed mode, java.version=1.6.0_13, java.ext.dirs=F:\Genuitec\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\lib\ext;C:\Windows\Sun\Java\lib\ext, sun.boot.class.path=F:\Genuitec\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\lib\resources.jar;F:\Genuitec\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\lib\rt.jar;F:\Genuitec\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\lib\sunrsasign.jar;F:\Genuitec\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\lib\jsse.jar;F:\Genuitec\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\lib\jce.jar;F:\Genuitec\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\lib\charsets.jar;F:\Genuitec\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\classes;F:\Genuitec\Common\plugins\com.genuitec.eclipse.j2eedt.core_8.6.0.me201007292038\data\libraryset\EE_5\javaee.jar;F:\Genuitec\Common\plugins\com.genuitec.eclipse.j2eedt.core_8.6.0.me201007292038\data\libraryset\EE_5\jsf-impl.jar;F:\Genuitec\Common\plugins\com.genuitec.eclipse.j2eedt.core_8.6.0.me201007292038\data\libraryset\EE_5\jsf-api.jar;F:\Genuitec\Common\plugins\com.genuitec.eclipse.j2eedt.core_8.6.0.me201007292038\data\libraryset\EE_5\jstl-1.2.jar, java.vendor=Sun Microsystems Inc., connection.driver_class=com.mysql.jdbc.Driver, file.separator=\, hibernate.hbm2ddl.auto=update, java.vendor.url.bug=http://java.sun.com/cgi-bin/bugreport.cgi, sun.io.unicode.encoding=UnicodeLittle, sun.cpu.endian=little, sun.desktop=windows, connection.url=jdbc:mysql://localhost:3306/miugril, dialect=org.hibernate.dialect.MySQL5Dialect, sun.cpu.isalist=pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86}
+220  DEBUG [2013-04-11 23:52:04]  Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+246  DEBUG [2013-04-11 23:52:04]  Preparing to build session factory with filters : {}
+267  DEBUG [2013-04-11 23:52:04]  Processing hbm.xml files
+267  DEBUG [2013-04-11 23:52:04]  Process annotated classes
+270  DEBUG [2013-04-11 23:52:04]  Binding entity from annotated class: momogril.model.User
+290  DEBUG [2013-04-11 23:52:04]  Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+292  DEBUG [2013-04-11 23:52:04]  No value specified for 'javax.persistence.sharedCache.mode'; using UNSPECIFIED
+299  DEBUG [2013-04-11 23:52:04]  Import with entity name User
+302  DEBUG [2013-04-11 23:52:04]  Bind entity momogril.model.User on table User
+320  DEBUG [2013-04-11 23:52:04]  Binding column: Ejb3Column{table=org.hibernate.mapping.Table(User), mappingColumn=id, insertable=true, updatable=true, unique=false}
+323  DEBUG [2013-04-11 23:52:04]  MetadataSourceProcessor property id with lazy=false
+326  DEBUG [2013-04-11 23:52:04]  building SimpleValue for id
+327  DEBUG [2013-04-11 23:52:04]  Building property id
+331  DEBUG [2013-04-11 23:52:04]  Binding column: Ejb3Column{table=org.hibernate.mapping.Table(User), mappingColumn=avatar_large, insertable=true, updatable=true, unique=false}
+331  DEBUG [2013-04-11 23:52:04]  MetadataSourceProcessor property avatar_large with lazy=false
+331  DEBUG [2013-04-11 23:52:04]  building SimpleValue for avatar_large
+331  DEBUG [2013-04-11 23:52:04]  Building property avatar_large
+331  DEBUG [2013-04-11 23:52:04]  Binding column: Ejb3Column{table=org.hibernate.mapping.Table(User), mappingColumn=createtime, insertable=true, updatable=true, unique=false}
+332  DEBUG [2013-04-11 23:52:04]  MetadataSourceProcessor property createtime with lazy=false
+332  DEBUG [2013-04-11 23:52:04]  building SimpleValue for createtime
+332  DEBUG [2013-04-11 23:52:04]  Building property createtime
+332  DEBUG [2013-04-11 23:52:04]  Binding column: Ejb3Column{table=org.hibernate.mapping.Table(User), mappingColumn=mid, insertable=true, updatable=true, unique=false}
+332  DEBUG [2013-04-11 23:52:04]  MetadataSourceProcessor property mid with lazy=false
+332  DEBUG [2013-04-11 23:52:04]  building SimpleValue for mid
+332  DEBUG [2013-04-11 23:52:04]  Building property mid
+332  DEBUG [2013-04-11 23:52:04]  Binding column: Ejb3Column{table=org.hibernate.mapping.Table(User), mappingColumn=profile_image_url, insertable=true, updatable=true, unique=false}
+332  DEBUG [2013-04-11 23:52:04]  MetadataSourceProcessor property profile_image_url with lazy=false
+332  DEBUG [2013-04-11 23:52:04]  building SimpleValue for profile_image_url
+333  DEBUG [2013-04-11 23:52:04]  Building property profile_image_url
+333  DEBUG [2013-04-11 23:52:04]  Binding column: Ejb3Column{table=org.hibernate.mapping.Table(User), mappingColumn=screen_name, insertable=true, updatable=true, unique=false}
+333  DEBUG [2013-04-11 23:52:04]  MetadataSourceProcessor property screen_name with lazy=false
+333  DEBUG [2013-04-11 23:52:04]  building SimpleValue for screen_name
+333  DEBUG [2013-04-11 23:52:04]  Building property screen_name
+334  DEBUG [2013-04-11 23:52:04]  Setting SimpleValue typeName for id
+334  DEBUG [2013-04-11 23:52:04]  Setting SimpleValue typeName for avatar_large
+335  DEBUG [2013-04-11 23:52:04]  Setting SimpleValue typeName for createtime
+335  DEBUG [2013-04-11 23:52:04]  Setting SimpleValue typeName for mid
+335  DEBUG [2013-04-11 23:52:04]  Setting SimpleValue typeName for profile_image_url
+335  DEBUG [2013-04-11 23:52:04]  Setting SimpleValue typeName for screen_name
+335  DEBUG [2013-04-11 23:52:04]  Processing fk mappings (*ToOne and JoinedSubclass)
+336  DEBUG [2013-04-11 23:52:04]  Processing extends queue
+336  DEBUG [2013-04-11 23:52:04]  Processing extends queue
+336  DEBUG [2013-04-11 23:52:04]  Processing collection mappings
+336  DEBUG [2013-04-11 23:52:04]  Processing native query and ResultSetMapping mappings
+336  DEBUG [2013-04-11 23:52:04]  Processing association property references
+336  DEBUG [2013-04-11 23:52:04]  Creating tables' unique integer identifiers
+337  DEBUG [2013-04-11 23:52:04]  Processing foreign key constraints
+348  INFO  [2013-04-11 23:52:04]  HHH000402: Using Hibernate built-in connection pool (not for production use!)
+352  INFO  [2013-04-11 23:52:04]  HHH000115: Hibernate connection pool size: 20
+352  INFO  [2013-04-11 23:52:04]  HHH000006: Autocommit mode: false
+352  INFO  [2013-04-11 23:52:04]  HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/miugril]
+352  INFO  [2013-04-11 23:52:04]  HHH000046: Connection properties: {user=root, password=123321}
+370  DEBUG [2013-04-11 23:52:04]  Opening new JDBC connection
+521  DEBUG [2013-04-11 23:52:04]  Created connection to: jdbc:mysql://localhost:3306/miugril, Isolation Level: 4
+521  DEBUG [2013-04-11 23:52:04]  Database ->
+       name : MySQL
+    version : 5.5.20
+      major : 5
+      minor : 5
+521  DEBUG [2013-04-11 23:52:04]  Driver ->
+       name : MySQL-AB JDBC Driver
+    version : mysql-connector-java-5.0.8 ( Revision: ${svn.Revision} )
+      major : 5
+      minor : 0
+522  DEBUG [2013-04-11 23:52:04]  JDBC version : 3.0
+539  INFO  [2013-04-11 23:52:04]  HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+548  INFO  [2013-04-11 23:52:04]  HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+561  DEBUG [2013-04-11 23:52:04]  Automatic flush during beforeCompletion(): disabled
+562  DEBUG [2013-04-11 23:52:04]  Automatic session close at end of transaction: disabled
+562  DEBUG [2013-04-11 23:52:04]  JDBC batch size: 15
+562  DEBUG [2013-04-11 23:52:04]  JDBC batch updates for versioned data: disabled
+562  DEBUG [2013-04-11 23:52:04]  Scrollable result sets: enabled
+562  DEBUG [2013-04-11 23:52:04]  Wrap result sets: disabled
+562  DEBUG [2013-04-11 23:52:04]  JDBC3 getGeneratedKeys(): enabled
+562  DEBUG [2013-04-11 23:52:04]  multi-tenancy strategy : NONE
+562  DEBUG [2013-04-11 23:52:04]  Connection release mode: auto
+562  INFO  [2013-04-11 23:52:04]  HHH000399: Using default transaction strategy (direct JDBC transactions)
+565  DEBUG [2013-04-11 23:52:04]  Maximum outer join fetch depth: 2
+565  DEBUG [2013-04-11 23:52:04]  Default batch fetch size: 1
+565  DEBUG [2013-04-11 23:52:04]  Generate SQL with comments: disabled
+566  DEBUG [2013-04-11 23:52:04]  Order SQL updates by primary key: disabled
+566  DEBUG [2013-04-11 23:52:04]  Order SQL inserts for batching: disabled
+566  DEBUG [2013-04-11 23:52:04]  Query translator: org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory
+567  INFO  [2013-04-11 23:52:04]  HHH000397: Using ASTQueryTranslatorFactory
+567  DEBUG [2013-04-11 23:52:04]  Query language substitutions: {}
+567  DEBUG [2013-04-11 23:52:04]  JPA-QL strict compliance: disabled
+567  DEBUG [2013-04-11 23:52:04]  Second-level cache: enabled
+568  DEBUG [2013-04-11 23:52:04]  Query cache: disabled
+568  DEBUG [2013-04-11 23:52:04]  Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+568  DEBUG [2013-04-11 23:52:04]  org.hibernate.cache.internal.NoCachingRegionFactory did not provide constructor accepting java.util.Properties; attempting no-arg constructor.
+568  DEBUG [2013-04-11 23:52:04]  Optimize cache for minimal puts: disabled
+568  DEBUG [2013-04-11 23:52:04]  Structured second-level cache entries: disabled
+569  DEBUG [2013-04-11 23:52:04]  Statistics: disabled
+569  DEBUG [2013-04-11 23:52:04]  Deleted entity synthetic identifier rollback: disabled
+569  DEBUG [2013-04-11 23:52:04]  Default entity-mode: pojo
+569  DEBUG [2013-04-11 23:52:04]  Named query checking : enabled
+569  DEBUG [2013-04-11 23:52:04]  Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+569  DEBUG [2013-04-11 23:52:04]  Allow initialization of lazy state outside session : : disabled
+577  DEBUG [2013-04-11 23:52:04]  Building session factory
+586  DEBUG [2013-04-11 23:52:04]  Session factory constructed with filter configurations : {}
+586  DEBUG [2013-04-11 23:52:04]  Instantiating session factory with properties: {java.runtime.name=Java(TM) SE Runtime Environment, hibernate.connection.password=123321, hibernate.cache.provider_class=org.hibernate.cache.internal.NoCacheProvider, sun.boot.library.path=F:\Genuitec\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\bin, java.vm.version=11.3-b02, hibernate.connection.username=root, java.vm.vendor=Sun Microsystems Inc., java.vendor.url=http://java.sun.com/, path.separator=;, java.vm.name=Java HotSpot(TM) Client VM, file.encoding.pkg=sun.io, user.country=CN, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=Service Pack 1, java.vm.specification.name=Java Virtual Machine Specification, user.dir=I:\momogril\webservice\Momogril, java.runtime.version=1.6.0_13-b03, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, hbm2ddl.auto=update, java.endorsed.dirs=F:\Genuitec\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\lib\endorsed, os.arch=x86, java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\, line.separator=
+, java.vm.specification.vendor=Sun Microsystems Inc., user.variant=, cache.provider_class=org.hibernate.cache.internal.NoCacheProvider, os.name=Windows Vista, sun.jnu.encoding=GBK, java.library.path=F:\Genuitec\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;F:/Genuitec/Common/binary/com.sun.java.jdk.win32.x86_1.6.0.013/jre/bin/client;F:/Genuitec/Common/binary/com.sun.java.jdk.win32.x86_1.6.0.013/jre/bin;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows7Master;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\Java\jdk1.6.0_31\bin;C:\Program Files\Java\jdk1.6.0_31\jre\bin;C:\Program Files (x86)\Android\android-sdk\tools;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Microsoft\Web Platform Installer\;H:\Git\cmd;C:\Tomcat7\lib;C:\Tomcat7\lib\servlet-api.jar;C:\Tomcat7\lib\jsp-api.jar, java.specification.name=Java Platform API Specification, java.class.version=50.0, sun.management.compiler=HotSpot Client Compiler, os.version=6.1, user.home=C:\Users\Administrator, connection.password=123321, user.timezone=Asia/Shanghai, java.awt.printerjob=sun.awt.windows.WPrinterJob, connection.username=root, java.specification.version=1.6, file.encoding=UTF-8, hibernate.connection.driver_class=com.mysql.jdbc.Driver, show_sql=true, java.class.path=I:\momogril\webservice\Momogril\WebRoot\WEB-INF\classes;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\antlr-2.7.7.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\asm-3.3.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\asm-commons-3.3.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\asm-tree-3.3.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\commons-codec.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\commons-fileupload-1.2.2.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\commons-httpclient-3.1.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\commons-io-2.0.1.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\commons-lang3-3.1.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\commons-logging-1.1.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\dom4j-1.6.1.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\freemarker-2.3.19.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\hibernate-commons-annotations-4.0.1.Final.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\hibernate-core-4.1.10.Final.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\hibernate-jpa-2.0-api-1.0.1.Final.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\jackson-all-1.8.5.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\javassist-3.11.0.GA.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\javassist-3.15.0-GA.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\jboss-logging-3.1.0.GA.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\jboss-transaction-api_1.1_spec-1.0.0.Final.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\log4j-1.2.16.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\ognl-3.0.6.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\struts2-core-2.3.8.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\struts2-json-plugin-2.3.8.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\xwork-core-2.3.8.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\fastjson-1.1.26.jar;F:\Genuitec\Common\plugins\org.junit4_4.5.0.v20090824\junit.jar;F:\Genuitec\Common\plugins\org.hamcrest.core_1.1.0.v20090501071000.jar;I:\momogril\webservice\Momogril\WebRoot\WEB-INF\lib\mysql-connector-java-5.0.8-bin.jar;/F:/Genuitec/MyEclipse for Spring 8.6/configuration/org.eclipse.osgi/bundles/715/1/.cp/;/F:/Genuitec/MyEclipse for Spring 8.6/configuration/org.eclipse.osgi/bundles/713/1/.cp/;/F:/Genuitec/MyEclipse for Spring 8.6/configuration/org.eclipse.osgi/bundles/714/1/.cp/, user.name=Administrator, hibernate.bytecode.use_reflection_optimizer=false, hibernate.show_sql=true, java.vm.specification.version=1.0, sun.arch.data.model=32, java.home=F:\Genuitec\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre, hibernate.connection.url=jdbc:mysql://localhost:3306/miugril, hibernate.dialect=org.hibernate.dialect.MySQL5Dialect, java.specification.vendor=Sun Microsystems Inc., user.language=zh, awt.toolkit=sun.awt.windows.WToolkit, java.vm.info=mixed mode, java.version=1.6.0_13, java.ext.dirs=F:\Genuitec\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\lib\ext;C:\Windows\Sun\Java\lib\ext, sun.boot.class.path=F:\Genuitec\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\lib\resources.jar;F:\Genuitec\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\lib\rt.jar;F:\Genuitec\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\lib\sunrsasign.jar;F:\Genuitec\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\lib\jsse.jar;F:\Genuitec\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\lib\jce.jar;F:\Genuitec\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\lib\charsets.jar;F:\Genuitec\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\classes;F:\Genuitec\Common\plugins\com.genuitec.eclipse.j2eedt.core_8.6.0.me201007292038\data\libraryset\EE_5\javaee.jar;F:\Genuitec\Common\plugins\com.genuitec.eclipse.j2eedt.core_8.6.0.me201007292038\data\libraryset\EE_5\jsf-impl.jar;F:\Genuitec\Common\plugins\com.genuitec.eclipse.j2eedt.core_8.6.0.me201007292038\data\libraryset\EE_5\jsf-api.jar;F:\Genuitec\Common\plugins\com.genuitec.eclipse.j2eedt.core_8.6.0.me201007292038\data\libraryset\EE_5\jstl-1.2.jar, java.vendor=Sun Microsystems Inc., file.separator=\, connection.driver_class=com.mysql.jdbc.Driver, java.vendor.url.bug=http://java.sun.com/cgi-bin/bugreport.cgi, hibernate.hbm2ddl.auto=update, sun.cpu.endian=little, sun.io.unicode.encoding=UnicodeLittle, sun.desktop=windows, connection.url=jdbc:mysql://localhost:3306/miugril, sun.cpu.isalist=pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86, dialect=org.hibernate.dialect.MySQL5Dialect}
+599  DEBUG [2013-04-11 23:52:04]  Setting dialect [org.hibernate.dialect.MySQL5Dialect]
+698  DEBUG [2013-04-11 23:52:04]  Static SQL for entity: momogril.model.User
+698  DEBUG [2013-04-11 23:52:04]   Version select: select id from User where id =?
+698  DEBUG [2013-04-11 23:52:04]   Snapshot select: select user_.id, user_.avatar_large as avatar2_0_, user_.createtime as createtime0_, user_.mid as mid0_, user_.profile_image_url as profile5_0_, user_.screen_name as screen6_0_ from User user_ where user_.id=?
+698  DEBUG [2013-04-11 23:52:04]   Insert 0: insert into User (avatar_large, createtime, mid, profile_image_url, screen_name, id) values (?, ?, ?, ?, ?, ?)
+698  DEBUG [2013-04-11 23:52:04]   Update 0: update User set avatar_large=?, createtime=?, mid=?, profile_image_url=?, screen_name=? where id=?
+699  DEBUG [2013-04-11 23:52:04]   Delete 0: delete from User where id=?
+699  DEBUG [2013-04-11 23:52:04]   Identity insert: insert into User (avatar_large, createtime, mid, profile_image_url, screen_name) values (?, ?, ?, ?, ?)
+718  DEBUG [2013-04-11 23:52:04]  Static select for entity momogril.model.User [NONE]: select user0_.id as id0_0_, user0_.avatar_large as avatar2_0_0_, user0_.createtime as createtime0_0_, user0_.mid as mid0_0_, user0_.profile_image_url as profile5_0_0_, user0_.screen_name as screen6_0_0_ from User user0_ where user0_.id=?
+719  DEBUG [2013-04-11 23:52:04]  Static select for entity momogril.model.User [READ]: select user0_.id as id0_0_, user0_.avatar_large as avatar2_0_0_, user0_.createtime as createtime0_0_, user0_.mid as mid0_0_, user0_.profile_image_url as profile5_0_0_, user0_.screen_name as screen6_0_0_ from User user0_ where user0_.id=?
+719  DEBUG [2013-04-11 23:52:04]  Static select for entity momogril.model.User [UPGRADE]: select user0_.id as id0_0_, user0_.avatar_large as avatar2_0_0_, user0_.createtime as createtime0_0_, user0_.mid as mid0_0_, user0_.profile_image_url as profile5_0_0_, user0_.screen_name as screen6_0_0_ from User user0_ where user0_.id=? for update
+720  DEBUG [2013-04-11 23:52:04]  Static select for entity momogril.model.User [UPGRADE_NOWAIT]: select user0_.id as id0_0_, user0_.avatar_large as avatar2_0_0_, user0_.createtime as createtime0_0_, user0_.mid as mid0_0_, user0_.profile_image_url as profile5_0_0_, user0_.screen_name as screen6_0_0_ from User user0_ where user0_.id=? for update
+720  DEBUG [2013-04-11 23:52:04]  Static select for entity momogril.model.User [FORCE]: select user0_.id as id0_0_, user0_.avatar_large as avatar2_0_0_, user0_.createtime as createtime0_0_, user0_.mid as mid0_0_, user0_.profile_image_url as profile5_0_0_, user0_.screen_name as screen6_0_0_ from User user0_ where user0_.id=? for update
+720  DEBUG [2013-04-11 23:52:04]  Static select for entity momogril.model.User [PESSIMISTIC_READ]: select user0_.id as id0_0_, user0_.avatar_large as avatar2_0_0_, user0_.createtime as createtime0_0_, user0_.mid as mid0_0_, user0_.profile_image_url as profile5_0_0_, user0_.screen_name as screen6_0_0_ from User user0_ where user0_.id=? lock in share mode
+720  DEBUG [2013-04-11 23:52:04]  Static select for entity momogril.model.User [PESSIMISTIC_WRITE]: select user0_.id as id0_0_, user0_.avatar_large as avatar2_0_0_, user0_.createtime as createtime0_0_, user0_.mid as mid0_0_, user0_.profile_image_url as profile5_0_0_, user0_.screen_name as screen6_0_0_ from User user0_ where user0_.id=? for update
+721  DEBUG [2013-04-11 23:52:04]  Static select for entity momogril.model.User [PESSIMISTIC_FORCE_INCREMENT]: select user0_.id as id0_0_, user0_.avatar_large as avatar2_0_0_, user0_.createtime as createtime0_0_, user0_.mid as mid0_0_, user0_.profile_image_url as profile5_0_0_, user0_.screen_name as screen6_0_0_ from User user0_ where user0_.id=? for update
+721  DEBUG [2013-04-11 23:52:04]  Static select for entity momogril.model.User [OPTIMISTIC]: select user0_.id as id0_0_, user0_.avatar_large as avatar2_0_0_, user0_.createtime as createtime0_0_, user0_.mid as mid0_0_, user0_.profile_image_url as profile5_0_0_, user0_.screen_name as screen6_0_0_ from User user0_ where user0_.id=?
+721  DEBUG [2013-04-11 23:52:04]  Static select for entity momogril.model.User [OPTIMISTIC_FORCE_INCREMENT]: select user0_.id as id0_0_, user0_.avatar_large as avatar2_0_0_, user0_.createtime as createtime0_0_, user0_.mid as mid0_0_, user0_.profile_image_url as profile5_0_0_, user0_.screen_name as screen6_0_0_ from User user0_ where user0_.id=?
+727  DEBUG [2013-04-11 23:52:04]  Static select for action ACTION_MERGE on entity momogril.model.User: select user0_.id as id0_0_, user0_.avatar_large as avatar2_0_0_, user0_.createtime as createtime0_0_, user0_.mid as mid0_0_, user0_.profile_image_url as profile5_0_0_, user0_.screen_name as screen6_0_0_ from User user0_ where user0_.id=?
+728  DEBUG [2013-04-11 23:52:04]  Static select for action ACTION_REFRESH on entity momogril.model.User: select user0_.id as id0_0_, user0_.avatar_large as avatar2_0_0_, user0_.createtime as createtime0_0_, user0_.mid as mid0_0_, user0_.profile_image_url as profile5_0_0_, user0_.screen_name as screen6_0_0_ from User user0_ where user0_.id=?
+753  DEBUG [2013-04-11 23:52:04]  Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@ed9f47
+755  DEBUG [2013-04-11 23:52:04]  Registering SessionFactory: 3ca78ebe-b57e-4c47-a7f2-87a835ec3fd2 (<unnamed>)
+755  DEBUG [2013-04-11 23:52:04]  Not binding SessionFactory to JNDI, no JNDI name configured
+755  DEBUG [2013-04-11 23:52:04]  Instantiated session factory
+759  INFO  [2013-04-11 23:52:04]  HHH000228: Running hbm2ddl schema update
+759  INFO  [2013-04-11 23:52:04]  HHH000102: Fetching database metadata
+763  INFO  [2013-04-11 23:52:04]  HHH000396: Updating schema
+763  DEBUG [2013-04-11 23:52:04]  Processing hbm.xml files
+763  DEBUG [2013-04-11 23:52:04]  Process annotated classes
+763  DEBUG [2013-04-11 23:52:04]  Processing fk mappings (*ToOne and JoinedSubclass)
+763  DEBUG [2013-04-11 23:52:04]  Processing extends queue
+763  DEBUG [2013-04-11 23:52:04]  Processing extends queue
+763  DEBUG [2013-04-11 23:52:04]  Processing collection mappings
+763  DEBUG [2013-04-11 23:52:04]  Processing native query and ResultSetMapping mappings
+763  DEBUG [2013-04-11 23:52:04]  Processing association property references
+763  DEBUG [2013-04-11 23:52:04]  Creating tables' unique integer identifiers
+763  DEBUG [2013-04-11 23:52:04]  Processing foreign key constraints
+765  INFO  [2013-04-11 23:52:04]  HHH000262: Table not found: User
+766  DEBUG [2013-04-11 23:52:04]  Setting dialect [org.hibernate.dialect.MySQL5Dialect]
+766  INFO  [2013-04-11 23:52:04]  HHH000262: Table not found: User
+767  DEBUG [2013-04-11 23:52:04]  Setting dialect [org.hibernate.dialect.MySQL5Dialect]
+767  DEBUG [2013-04-11 23:52:04]  create table User (id bigint not null auto_increment, avatar_large varchar(255), createtime date, mid varchar(255), profile_image_url varchar(255), screen_name varchar(255), primary key (id))
+1005 INFO  [2013-04-11 23:52:05]  HHH000232: Schema update complete
+1005 DEBUG [2013-04-11 23:52:05]  Checking 0 named HQL queries
+1005 DEBUG [2013-04-11 23:52:05]  Checking 0 named SQL queries
+1012 DEBUG [2013-04-11 23:52:05]  Statistics initialized [enabled=false]
+1052 DEBUG [2013-04-11 23:52:05]  begin
+1052 DEBUG [2013-04-11 23:52:05]  Obtaining JDBC connection
+1052 DEBUG [2013-04-11 23:52:05]  Obtained JDBC connection
+1052 DEBUG [2013-04-11 23:52:05]  initial autocommit status: false
+1097 DEBUG [2013-04-11 23:52:05]  Executing identity-insert immediately
+1122 DEBUG [2013-04-11 23:52:05]  insert into User (avatar_large, createtime, mid, profile_image_url, screen_name) values (?, ?, ?, ?, ?)
+1162 DEBUG [2013-04-11 23:52:05]  Natively generated identity: 1
+1168 DEBUG [2013-04-11 23:52:05]  committing
+1168 DEBUG [2013-04-11 23:52:05]  Processing flush-time cascades
+1169 DEBUG [2013-04-11 23:52:05]  Dirty checking collections
+1170 DEBUG [2013-04-11 23:52:05]  Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+1170 DEBUG [2013-04-11 23:52:05]  Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+1171 DEBUG [2013-04-11 23:52:05]  Listing entities:
+1172 DEBUG [2013-04-11 23:52:05]  momogril.model.User{createtime=null, id=1, screen_name=null, mid=1000, profile_image_url=null, avatar_large=null}
+1196 DEBUG [2013-04-11 23:52:05]  committed JDBC Connection

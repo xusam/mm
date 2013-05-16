@@ -1,0 +1,18 @@
+package momogril.model;
+
+public class MiuGrilBlog {
+	
+	private long mgid;
+	private String mid;
+	private String bmiddle_pic;
+	private String original_pic ;
+	private long praise_count ;
+	private long shake_count ;
+	private long coment_count ;
+	private int is_hot  ;
+	private int is_recommend  ;
+	
+	
+	
+
+}

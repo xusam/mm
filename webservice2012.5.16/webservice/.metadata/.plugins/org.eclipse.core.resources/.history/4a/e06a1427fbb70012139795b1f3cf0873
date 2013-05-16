@@ -1,0 +1,5 @@
+package momogril.dao;
+
+public abstract class MiuGrilBlogDao {
+
+}

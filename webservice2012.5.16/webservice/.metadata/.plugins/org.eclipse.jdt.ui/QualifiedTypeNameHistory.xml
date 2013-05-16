@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="weibo4j.model.Paging"/>
+<fullyQualifiedTypeName name="weibo4j.Oauth"/>
+<fullyQualifiedTypeName name="weibo4j.model.StatusWapper"/>
+<fullyQualifiedTypeName name="weibo4j.model.Status"/>
+<fullyQualifiedTypeName name="sun.rmi.runtime.Log"/>
+<fullyQualifiedTypeName name="weibo4j.Timeline"/>
+<fullyQualifiedTypeName name="weibo4j.model.WeiboException"/>
+<fullyQualifiedTypeName name="weibo4j.util.SiginSinaWeibo"/>
+<fullyQualifiedTypeName name="weibo4j.http.AccessToken"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="antlr.collections.List"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.opensymphony.xwork2.ActionSupport"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
+<fullyQualifiedTypeName name="org.junit.Test"/>
+<fullyQualifiedTypeName name="momogril.dao.UserDao"/>
+<fullyQualifiedTypeName name="momogril.service.SearchGrilService"/>
+<fullyQualifiedTypeName name="momogril.daoimpl.SearchGrilDaoImpl"/>
+<fullyQualifiedTypeName name="momogril.dao.SearchGrilDao"/>
+<fullyQualifiedTypeName name="momogril.serviceimpl.SearchGrilServiceImpl"/>
+<fullyQualifiedTypeName name="weibo4j.Users"/>
+<fullyQualifiedTypeName name="weibo4j.model.User"/>
+<fullyQualifiedTypeName name="momogril.service.UserService"/>
+<fullyQualifiedTypeName name="com.sun.org.apache.bcel.internal.generic.NEW"/>
+<fullyQualifiedTypeName name="momogril.daoimpl.UserDaoImpl"/>
+<fullyQualifiedTypeName name="momogril.serviceimpl.UserServiceImpl"/>
+<fullyQualifiedTypeName name="momogril.model.User"/>
+<fullyQualifiedTypeName name="java.sql.Date"/>
+<fullyQualifiedTypeName name="momogril.service.MiuGrilBlogService"/>
+<fullyQualifiedTypeName name="momogril.dao.MiuGrilBlogDao"/>
+<fullyQualifiedTypeName name="momogril.daoimpl.MiuGrilBlogDaoImpl"/>
+<fullyQualifiedTypeName name="momogril.model.MiuGrilBlog"/>
+<fullyQualifiedTypeName name="momogril.serviceimpl.MiuGrilBlogServiceImpl"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="org.hibernate.annotations.Where"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,13 @@
+#Thu May 09 23:25:03 CST 2013
+tomcat7Server.Momogril.isDeployed=true
+tomcat7Server.Momogril.type=WebDeployment
+tomcat7Server.Momogril.contextRoot=/Momogril
+tomcat7Server.Momogril.altContextRoot=
+tomcat7Server.Momogril.deploymentPath=C\:\\Tomcat7\\webapps\\Momogril
+tomcat7Server.Momogril.shouldOverwrite=false
+tomcat7Server.Momogril.isExploded=true
+eclipse.preferences.version=1
+tomcat7Server.Momogril.isUptoDate=true
+tomcat7Server.Momogril.IEARProjectName=
+tomcat7Server.Momogril.shouldBackup=false
+tomcat7Server.Momogril.deployIsOverProject=false
