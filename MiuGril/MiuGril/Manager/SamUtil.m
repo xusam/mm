@@ -48,4 +48,16 @@
     label.textColor=color;
 
 }
++(UIBarButtonItem*)getBarButtonItem:(UIButton*)button{
+    button.Frame=CGRectMake(0, 0, 110/2.0f, 58/2.0f);
+    [button setBackgroundImage:[UIImage imageNamed:@"btn_nav_normal.png"] forState:UIControlStateNormal];
+    [button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    [button setFont:[UIFont boldSystemFontOfSize:15]];
+    [button setTitle:@"完成" forState:UIControlStateNormal];
+   
+    UIBarButtonItem * barButtonItem=[[UIBarButtonItem alloc] initWithCustomView:button];
+    return barButtonItem;
+
+
+}
 @end

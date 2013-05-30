@@ -91,6 +91,16 @@
 		2218CDF6174D35CD005E4053 /* share_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2218CDF4174D35CD005E4053 /* share_2@2x.png */; };
 		2218CDF8174D3D12005E4053 /* heart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2218CDF7174D3D12005E4053 /* heart@2x.png */; };
 		2218CDFA174D4899005E4053 /* content_more@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2218CDF9174D4899005E4053 /* content_more@2x.png */; };
+		223CCD06175662A9004855AB /* SinaWeiboManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 223CCD05175662A9004855AB /* SinaWeiboManager.m */; };
+		223CCD0A17566845004855AB /* headpic_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 223CCD0817566845004855AB /* headpic_bg@2x.png */; };
+		223CCD0E175668FE004855AB /* RecommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 223CCD0D175668FE004855AB /* RecommendViewController.m */; };
+		223CCD111756692C004855AB /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 223CCD101756692C004855AB /* BaseViewController.m */; };
+		223CCD1417566E73004855AB /* follow_btn_action@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 223CCD1217566E73004855AB /* follow_btn_action@2x.png */; };
+		223CCD1517566E73004855AB /* follow_btn_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 223CCD1317566E73004855AB /* follow_btn_normal@2x.png */; };
+		223CCD1917567ED2004855AB /* SelectButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 223CCD1817567ED2004855AB /* SelectButton.m */; };
+		223CCD1C17568782004855AB /* btn_nav_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 223CCD1A17568782004855AB /* btn_nav_normal@2x.png */; };
+		223CCD1D17568782004855AB /* btn_nav_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 223CCD1B17568782004855AB /* btn_nav_selected@2x.png */; };
+		223CCD1F175698C7004855AB /* menu_cell_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 223CCD1E175698C7004855AB /* menu_cell_bg@2x.png */; };
 		22A21D6A1754AEF6003D4E50 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A21D691754AEF6003D4E50 /* LoginViewController.m */; };
 		22C965A21754CA83006EFDC9 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C965981754CA83006EFDC9 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		22C965A31754CA83006EFDC9 /* SinaWeibo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 22C9659A1754CA83006EFDC9 /* SinaWeibo.bundle */; };
@@ -240,6 +250,20 @@
 		2218CDF4174D35CD005E4053 /* share_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "share_2@2x.png"; path = "image/share_2@2x.png"; sourceTree = "<group>"; };
 		2218CDF7174D3D12005E4053 /* heart@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "heart@2x.png"; path = "image/heart@2x.png"; sourceTree = "<group>"; };
 		2218CDF9174D4899005E4053 /* content_more@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "content_more@2x.png"; path = "image/content_more@2x.png"; sourceTree = "<group>"; };
+		223CCD04175662A9004855AB /* SinaWeiboManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinaWeiboManager.h; sourceTree = "<group>"; };
+		223CCD05175662A9004855AB /* SinaWeiboManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinaWeiboManager.m; sourceTree = "<group>"; };
+		223CCD0817566845004855AB /* headpic_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "headpic_bg@2x.png"; path = "image/headpic_bg@2x.png"; sourceTree = "<group>"; };
+		223CCD0C175668FE004855AB /* RecommendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecommendViewController.h; path = ViewController/RecommendViewController.h; sourceTree = "<group>"; };
+		223CCD0D175668FE004855AB /* RecommendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecommendViewController.m; path = ViewController/RecommendViewController.m; sourceTree = "<group>"; };
+		223CCD0F1756692C004855AB /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseViewController.h; path = ViewController/BaseViewController.h; sourceTree = "<group>"; };
+		223CCD101756692C004855AB /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseViewController.m; path = ViewController/BaseViewController.m; sourceTree = "<group>"; };
+		223CCD1217566E73004855AB /* follow_btn_action@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "follow_btn_action@2x.png"; path = "image/follow_btn_action@2x.png"; sourceTree = "<group>"; };
+		223CCD1317566E73004855AB /* follow_btn_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "follow_btn_normal@2x.png"; path = "image/follow_btn_normal@2x.png"; sourceTree = "<group>"; };
+		223CCD1717567ED2004855AB /* SelectButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SelectButton.h; path = custom/SelectButton.h; sourceTree = "<group>"; };
+		223CCD1817567ED2004855AB /* SelectButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SelectButton.m; path = custom/SelectButton.m; sourceTree = "<group>"; };
+		223CCD1A17568782004855AB /* btn_nav_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "btn_nav_normal@2x.png"; path = "image/btn_nav_normal@2x.png"; sourceTree = "<group>"; };
+		223CCD1B17568782004855AB /* btn_nav_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "btn_nav_selected@2x.png"; path = "image/btn_nav_selected@2x.png"; sourceTree = "<group>"; };
+		223CCD1E175698C7004855AB /* menu_cell_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "menu_cell_bg@2x.png"; path = "image/menu_cell_bg@2x.png"; sourceTree = "<group>"; };
 		22A21D681754AEF6003D4E50 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = ViewController/LoginViewController.h; sourceTree = "<group>"; };
 		22A21D691754AEF6003D4E50 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = ViewController/LoginViewController.m; sourceTree = "<group>"; };
 		22C965971754CA83006EFDC9 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
@@ -321,10 +345,7 @@
 		2218CD0D174BF5CE005E4053 /* MiuGril */ = {
 			isa = PBXGroup;
 			children = (
-				22A21D661754AE7A003D4E50 /* ViewController */,
 				2218CDC1174C7DD2005E4053 /* test.json */,
-				2218CD68174C7214005E4053 /* Manager */,
-				2218CD3D174BF78D005E4053 /* LeftMenu */,
 				2218CD36174BF664005E4053 /* image */,
 				2218CD2D174BF5EE005E4053 /* other */,
 				2218CD16174BF5CF005E4053 /* AppDelegate.h */,
@@ -332,6 +353,8 @@
 				2218CD1F174BF5CF005E4053 /* ViewController.h */,
 				2218CD20174BF5CF005E4053 /* ViewController.m */,
 				2218CD22174BF5CF005E4053 /* ViewController_iPhone.xib */,
+				2218CD68174C7214005E4053 /* Manager */,
+				22A21D661754AE7A003D4E50 /* ViewController */,
 				2218CD0E174BF5CE005E4053 /* Supporting Files */,
 			);
 			path = MiuGril;
@@ -354,6 +377,7 @@
 		2218CD2D174BF5EE005E4053 /* other */ = {
 			isa = PBXGroup;
 			children = (
+				223CCD1617567E94004855AB /* custom */,
 				22C965951754CA83006EFDC9 /* sinaweibo_ios_sdk */,
 				22131F791754BAA9009C8B96 /* PageControl */,
 				2218CDC8174D241F005E4053 /* SDWebImage */,
@@ -388,6 +412,12 @@
 		2218CD36174BF664005E4053 /* image */ = {
 			isa = PBXGroup;
 			children = (
+				223CCD1E175698C7004855AB /* menu_cell_bg@2x.png */,
+				223CCD1A17568782004855AB /* btn_nav_normal@2x.png */,
+				223CCD1B17568782004855AB /* btn_nav_selected@2x.png */,
+				223CCD1217566E73004855AB /* follow_btn_action@2x.png */,
+				223CCD1317566E73004855AB /* follow_btn_normal@2x.png */,
+				223CCD0817566845004855AB /* headpic_bg@2x.png */,
 				22131F871754BFBD009C8B96 /* login_1@2x.png */,
 				22131F851754BE36009C8B96 /* login_btn@2x.png */,
 				22131F7D1754BC43009C8B96 /* currentSearchDot@2x.png */,
@@ -464,6 +494,8 @@
 				2218CDBA174C758A005E4053 /* MiuGrilStatic.h */,
 				2218CDC5174D2126005E4053 /* SamUtil.h */,
 				2218CDC6174D2126005E4053 /* SamUtil.m */,
+				223CCD04175662A9004855AB /* SinaWeiboManager.h */,
+				223CCD05175662A9004855AB /* SinaWeiboManager.m */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -590,11 +622,33 @@
 			path = SDWebImage;
 			sourceTree = "<group>";
 		};
+		223CCD0B175668DC004855AB /* Recommend */ = {
+			isa = PBXGroup;
+			children = (
+				223CCD0C175668FE004855AB /* RecommendViewController.h */,
+				223CCD0D175668FE004855AB /* RecommendViewController.m */,
+			);
+			name = Recommend;
+			sourceTree = "<group>";
+		};
+		223CCD1617567E94004855AB /* custom */ = {
+			isa = PBXGroup;
+			children = (
+				223CCD1717567ED2004855AB /* SelectButton.h */,
+				223CCD1817567ED2004855AB /* SelectButton.m */,
+			);
+			name = custom;
+			sourceTree = "<group>";
+		};
 		22A21D661754AE7A003D4E50 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				2218CD3D174BF78D005E4053 /* LeftMenu */,
+				223CCD0B175668DC004855AB /* Recommend */,
 				22A21D671754AE91003D4E50 /* Login */,
 				2218CD39174BF710005E4053 /* MainViewController */,
+				223CCD0F1756692C004855AB /* BaseViewController.h */,
+				223CCD101756692C004855AB /* BaseViewController.m */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -722,6 +776,12 @@
 				22131F861754BE36009C8B96 /* login_btn@2x.png in Resources */,
 				22131F881754BFBD009C8B96 /* login_1@2x.png in Resources */,
 				22C965A31754CA83006EFDC9 /* SinaWeibo.bundle in Resources */,
+				223CCD0A17566845004855AB /* headpic_bg@2x.png in Resources */,
+				223CCD1417566E73004855AB /* follow_btn_action@2x.png in Resources */,
+				223CCD1517566E73004855AB /* follow_btn_normal@2x.png in Resources */,
+				223CCD1C17568782004855AB /* btn_nav_normal@2x.png in Resources */,
+				223CCD1D17568782004855AB /* btn_nav_selected@2x.png in Resources */,
+				223CCD1F175698C7004855AB /* menu_cell_bg@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -782,6 +842,10 @@
 				22C965A41754CA83006EFDC9 /* SinaWeibo.m in Sources */,
 				22C965A51754CA83006EFDC9 /* SinaWeiboAuthorizeView.m in Sources */,
 				22C965A61754CA83006EFDC9 /* SinaWeiboRequest.m in Sources */,
+				223CCD06175662A9004855AB /* SinaWeiboManager.m in Sources */,
+				223CCD0E175668FE004855AB /* RecommendViewController.m in Sources */,
+				223CCD111756692C004855AB /* BaseViewController.m in Sources */,
+				223CCD1917567ED2004855AB /* SelectButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -13,6 +13,7 @@
 #import "CenterViewController.h"
 #import "LeftMenuViewController.h"
 #import "LoginViewController.h"
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -20,12 +21,8 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleBlackOpaque];
+
     
-//    CenterViewController * centerView=[[CenterViewController alloc] init];
-//    LeftMenuViewController * leftMenuView=[[LeftMenuViewController alloc] init];
-//    
-//    
-//    MainViewController * mainView=[[MainViewController alloc] initWithCenterViewController:centerView LeftViewController:leftMenuView RightViewController:nil];
     
     self.viewController=[[LoginViewController alloc] initWithNibName:nil bundle:nil];
     
@@ -37,12 +34,26 @@
         _sinaweibo.accessToken = [sinaweiboInfo objectForKey:@"AccessTokenKey"];
         _sinaweibo.expirationDate = [sinaweiboInfo objectForKey:@"ExpirationDateKey"];
         _sinaweibo.userID = [sinaweiboInfo objectForKey:@"UserIDKey"];
+  
+        CenterViewController * centerView=[[CenterViewController alloc] init];
+        LeftMenuViewController * leftMenuView=[[LeftMenuViewController alloc] init];
+        
+        
+        MainViewController * mainView=[[MainViewController alloc] initWithCenterViewController:centerView LeftViewController:leftMenuView RightViewController:nil];
+        self.window.rootViewController = mainView;
+
+        
+        
+    }else{
+    
+     self.window.rootViewController = self.viewController;
+    
     }
 
    
+   
     
-    
-    self.window.rootViewController = self.viewController;
+   
     [self.window makeKeyAndVisible];
     return YES;
 }

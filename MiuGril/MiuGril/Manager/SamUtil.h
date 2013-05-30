@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <QuartzCore/QuartzCore.h>
+
 @interface SamUtil : NSObject
 
 
@@ -18,6 +19,11 @@
 
 
 +(void)initButton:(UIButton*)btn image:(UIImage*)image Frame:(CGRect)rect addTarget:(id)target  action:(SEL)action;
+
 +(void)initLabel:(UILabel*)label text:(NSString*)text Frame:(CGRect)rect size:(int)size
 blod:(BOOL)blod color:(UIColor*)color;
+
++(UIBarButtonItem*)getBarButtonItem:(UIButton*)button;
+
+
 @end

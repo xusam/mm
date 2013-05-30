@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BaseViewController.h"
+@interface LeftMenuViewController : BaseViewController<UITableViewDataSource,UITableViewDelegate>
+{
+    UITableView * menuTableView;
 
-@interface LeftMenuViewController : UIViewController
+}
 
 @end
