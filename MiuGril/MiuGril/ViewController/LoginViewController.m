@@ -93,6 +93,10 @@
     
     
     [SinaWeiboManager storeAuthData];
+    NSMutableDictionary * params=[[NSMutableDictionary alloc] init];
+    [params setObject:sinaweibo.userID forKey:@"wid"];
+   
+    [self.asimanager getDataWithUrl:[NSString stringWithFormat:@"%@%@",MiuGrilAddress,UserSigin] params:params requestType:GET_UserSigin];
 }
 
 
@@ -103,6 +107,13 @@
 }
 
 
-
-
+-(void)requestFinish:(Request_Type)requestType data:(NSData *)data
+{
+  
+    if(requestType==GET_UserSigin){
+        NSLog(@"ok");
+    
+    }
+   
+}
 @end

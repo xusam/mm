@@ -56,8 +56,8 @@
     
     [SamUtil initButton:_headPic image:nil Frame:CGRectMake(10, 10, 33, 33) addTarget:self action:@selector(showUserInfo)];
     
-    [_headPic setImageWithURL:[NSURL URLWithString:[dic objectForKey:@"bmiddle_pic"]] forState:UIControlStateNormal];
-    [SamUtil initLabel:_nickname text:@"Feina妃总" Frame:CGRectMake(53, 18, 200, 20) size:14 blod:YES color:[UIColor colorWithRed:51/250.0f green:180/250.0f blue:225/250.0f alpha:1]];
+    [_headPic setImageWithURL:[NSURL URLWithString:[dic objectForKey:@"user_pic"]] forState:UIControlStateNormal];
+    [SamUtil initLabel:_nickname text:[dic objectForKey:@"nickname"] Frame:CGRectMake(53, 18, 200, 20) size:14 blod:YES color:[UIColor colorWithRed:51/250.0f green:180/250.0f blue:225/250.0f alpha:1]];
     
     [SamUtil initImageView:_contentPic Frame:CGRectMake(10, 50, 290, 320) andImage:nil cornerRadius:3];
     [_contentPic setImageWithURL:[NSURL URLWithString:[dic objectForKey:@"bmiddle_pic"]] placeholderImage:nil];
@@ -69,7 +69,7 @@
     _contentPic.userInteractionEnabled=YES;
     
     
-    [SamUtil initLabel:_praiseCount text:@"1979 条称赞" Frame:CGRectMake(33, 376, 200, 18) size:13 blod:YES color:[UIColor colorWithRed:51/250.0f green:180/250.0f blue:225/250.0f alpha:1]];
+    [SamUtil initLabel:_praiseCount text:[NSString stringWithFormat:@"%@ 条称赞",[dic objectForKey:@"praise_count"]] Frame:CGRectMake(33, 376, 200, 18) size:13 blod:YES color:[UIColor colorWithRed:51/250.0f green:180/250.0f blue:225/250.0f alpha:1]];
     
     
     

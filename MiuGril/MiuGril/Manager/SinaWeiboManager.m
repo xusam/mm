@@ -44,4 +44,9 @@
 
 
 }
++(NSString*)getWid{
+    SinaWeibo *sinaweibo = [self getSinaWeibo];
+    return sinaweibo.userID;
+
+}
 @end

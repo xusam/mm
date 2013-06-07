@@ -13,6 +13,9 @@
 #import "CJSONDeserializer.h"
 #import "CenterCell.h"
 #import "SamUtil.h"
+#import "SinaWeiboManager.h"
+#import "JSONKit.h"
+
 @interface CenterViewController ()
 
 @end
@@ -31,6 +34,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    pageIndex=0;
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(showPariseHeart) name:@"showPariseHeart" object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(showUserInfo) name:@"showUserInfo" object:nil];
     self.view.backgroundColor=[UIColor colorWithRed:243.0/255.0f green:243.0/255.0f blue:243.0/255.0f alpha:1];
@@ -47,20 +51,21 @@
    
     
     
-    //测试 test ---------------------
-    NSString *path = [[NSBundle mainBundle]pathForResource:@"test" ofType:@"json"];
+
     
-    NSData *jsonData = [[NSFileManager defaultManager] contentsAtPath:path];
+    [self fristRequest];
     
-  NSDictionary * data= [[CJSONDeserializer deserializer] deserialize:jsonData error:nil];
-    NSArray *array=[data objectForKey:@"dataList"];
-    [_sxDataTableView.arrData addObjectsFromArray:array];
-    [_sxDataTableView.tableView reloadData];
-    
-   
 	// Do any additional setup after loading the view.
 }
 
+-(void)fristRequest{
+    NSMutableDictionary * params=[[NSMutableDictionary alloc] init];
+    [params setValue:[SinaWeiboManager getWid] forKey:@"uid"];
+    [params setValue:[NSString stringWithFormat:@"%d",pageIndex] forKey:@"pageIndex"];
+    
+    [self.asimanager getDataWithUrl:[NSString stringWithFormat:@"%@%@",MiuGrilAddress,GetMiuGril] params:params requestType:GET_MiuGril];
+
+}
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
@@ -112,4 +117,16 @@
 
 }
 
+-(void)requestFinish:(Request_Type)requestType data:(NSData *)data{
+
+
+    if(requestType==GET_MiuGril){
+        NSDictionary* result=   [data objectFromJSONDataWithParseOptions:JKParseOptionStrict];
+        NSLog(@"%@",result);
+        NSArray* arrData=[result objectForKey:@"datas"];
+        [_sxDataTableView.arrData addObjectsFromArray:arrData];
+        [_sxDataTableView.tableView reloadData];
+        
+    }
+}
 @end

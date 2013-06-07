@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ASIManager.h"
+@interface BaseViewController : UIViewController<ASIManagerDelegate>
 
-@interface BaseViewController : UIViewController
 
+@property(nonatomic,retain)ASIManager *asimanager;
 @end

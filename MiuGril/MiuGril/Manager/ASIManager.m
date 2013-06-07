@@ -69,7 +69,7 @@
 	[requestQueue cancelAllOperations];
 }
 
-//通过POST方式获取
+//通过Get方式获取
 /*
  
  NSMutableDictionary * params=[[NSMutableDictionary alloc] init];
@@ -281,4 +281,8 @@
 }
 
 
+
+NSString *const MiuGrilAddress=@"http://192.168.1.100:8080/Momogril";
+NSString *const UserSigin=@"/service_UserSigin";//----获取用户感兴趣
+NSString *const GetMiuGril=@"/service_GetUserMiuGril";//用户女神
 @end

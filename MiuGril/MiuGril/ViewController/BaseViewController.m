@@ -13,7 +13,7 @@
 @end
 
 @implementation BaseViewController
-
+@synthesize asimanager=_asimanager;
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -27,6 +27,8 @@
 {
     [super viewDidLoad];
       self.view.backgroundColor=[UIColor colorWithRed:243.0/255.0f green:243.0/255.0f blue:243.0/255.0f alpha:1];
+    self.asimanager=[[ASIManager alloc] initWithDelegate:self];
+    
 	// Do any additional setup after loading the view.
 }
 

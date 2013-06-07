@@ -15,4 +15,5 @@
 +(void)storeAuthData;
 +(void)removeAuthData;
 +(void)siginWeibo;
++(NSString*)getWid;
 @end

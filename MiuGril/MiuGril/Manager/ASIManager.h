@@ -14,7 +14,8 @@
 @class ASINetworkQueue;
 
 typedef enum {
-    GET_TEST=0,
+    GET_UserSigin=0,
+    GET_MiuGril=1,
 
 }Request_Type;
 
@@ -44,5 +45,12 @@ typedef enum {
 
 //通过POST方式获取
 - (void)postDataWithUrl:(NSString*)strUrl  params:(NSArray *)params requestType:(Request_Type)requestType;
+
+
+FOUNDATION_EXPORT NSString *const MiuGrilAddress;//ip
+FOUNDATION_EXPORT NSString *const UserSigin;//用户端登陆
+FOUNDATION_EXPORT NSString *const GetMiuGril;//用户女神
+
+
 
 @end

@@ -8,16 +8,18 @@
 
 #import <UIKit/UIKit.h>
 #import "CenterCell.h"
+#import "BaseViewController.h"
 @class SXDataTableView;
 
-@interface CenterViewController : UIViewController<UITableViewDelegate>{
+@interface CenterViewController : BaseViewController<UITableViewDelegate>{
 
    SXDataTableView * _sxDataTableView;
    
     //测试 test
     NSArray * _dataList;
+    int pageIndex;
     
     
 }
-
+-(void)fristRequest;  
 @end

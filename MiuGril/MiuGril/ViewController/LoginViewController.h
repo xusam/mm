@@ -10,7 +10,8 @@
 #import "SMPageControl.h"
 #import "SinaWeibo.h"
 #import "SinaWeiboRequest.h"
-@interface LoginViewController : UIViewController<UIScrollViewDelegate,SinaWeiboDelegate, SinaWeiboRequestDelegate>
+#import "BaseViewController.h"
+@interface LoginViewController : BaseViewController<UIScrollViewDelegate,SinaWeiboDelegate, SinaWeiboRequestDelegate>
 
 {
 
